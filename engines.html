@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Это сайт с новостями и информацией о машинах Ford в РФ.">
+  <title>Ford | Двигатели</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicons/favicon.ico" type="image/x-icon">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <div class="subheader">
+    <div class="container">
+      <div class="subheader__socials socials">
+        <a href="#facebook" class="socials__link">
+          <svg width="7" height="14" viewBox="0 0 7 14" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M4.65469 14V6.99918H6.72556L7 4.58666H4.65469L4.65821 3.37917C4.65821 2.74995 4.72228 2.41279 5.69072 2.41279H6.98534V0H4.91418C2.42638 0 1.55073 1.17033 1.55073 3.13846V4.58693H0V6.99945H1.55073V14H4.65469Z"/>
+	</g>
+</svg>
+          <span>Facebook</span>
+        </a>
+        <a href="#instagram" class="socials__link">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M5.3435 0.00182999C5.47099 0.00163045 5.60814 0.001692 5.75614 0.00175842L6.00008 0.00182999C7.95426 0.00182999 8.18587 0.00884495 8.95757 0.0439197C9.67118 0.0765545 10.0585 0.195809 10.3165 0.296001C10.658 0.428675 10.9015 0.587274 11.1576 0.843472C11.4137 1.09967 11.5723 1.34367 11.7053 1.68527C11.8054 1.94299 11.9248 2.33034 11.9573 3.04403C11.9924 3.81568 12 4.04748 12 6.00099C12 7.9545 11.9924 8.1863 11.9573 8.95795C11.9247 9.67164 11.8054 10.059 11.7053 10.3167C11.5726 10.6583 11.4137 10.9015 11.1576 11.1576C10.9014 11.4138 10.6582 11.5724 10.3165 11.7051C10.0588 11.8057 9.67118 11.9247 8.95757 11.9573C8.18603 11.9924 7.95426 12 6.00008 12C4.04574 12 3.81413 11.9924 3.04258 11.9573C2.32897 11.9244 1.94168 11.8051 1.68353 11.7049C1.34197 11.5722 1.09801 11.4136 0.841841 11.1574C0.585675 10.9012 0.427096 10.6579 0.294133 10.3161C0.193954 10.0584 0.0745626 9.67103 0.0420844 8.95734C0.00701407 8.18569 0 7.95389 0 5.99916C0 4.04443 0.00701407 3.81385 0.0420844 3.0422C0.0747151 2.32851 0.193954 1.94116 0.294133 1.68313C0.426791 1.34153 0.585675 1.09754 0.841841 0.841337C1.09801 0.585139 1.34197 0.42654 1.68353 0.293561C1.94152 0.192911 2.32897 0.073962 3.04258 0.0411748C3.71776 0.0106749 3.97942 0.00152499 5.3435 0V0.00182999ZM9.90732 1.21732C9.42244 1.21732 9.02904 1.61031 9.02904 2.09541C9.02904 2.58036 9.42244 2.97381 9.90732 2.97381C10.3922 2.97381 10.7856 2.58036 10.7856 2.09541C10.7856 1.61046 10.3922 1.21702 9.90732 1.21702V1.21732ZM2.24154 6.00275C2.24154 3.92683 3.92437 2.24373 6.00001 2.24365C8.07572 2.24365 9.75818 3.92678 9.75818 6.00275C9.75818 8.07872 8.07587 9.76109 6.00016 9.76109C3.92446 9.76109 2.24154 8.07872 2.24154 6.00275Z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M6.00034 3.56267C7.34766 3.56267 8.44002 4.65502 8.44002 6.00265C8.44002 7.35013 7.34766 8.44264 6.00034 8.44264C4.65288 8.44264 3.56067 7.35013 3.56067 6.00265C3.56067 4.65502 4.65288 3.56267 6.00034 3.56267V3.56267Z"/>
+	</g>
+</svg>
+          <span>Instagram</span>
+        </a>
+        <a href="#twitter" class="socials__link">
+          <svg width="12" height="10" viewBox="0 0 12 10" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M5.82668 2.66016L5.8527 3.09268L5.41916 3.03972C3.8411 2.8367 2.46247 2.14818 1.29193 0.991834L0.719665 0.418072L0.572264 0.841773C0.26012 1.78627 0.459545 2.78374 1.10984 3.4546C1.45667 3.82533 1.37864 3.8783 0.78036 3.65762C0.572264 3.587 0.39018 3.53404 0.372838 3.56052C0.312144 3.62231 0.52024 4.42558 0.684982 4.74335C0.910419 5.18471 1.36996 5.61724 1.87286 5.87322L2.29773 6.07625L1.79483 6.08507C1.30927 6.08507 1.29193 6.0939 1.34395 6.27927C1.51737 6.85303 2.20235 7.4621 2.96537 7.72692L3.50295 7.91228L3.03473 8.19475C2.34108 8.6008 1.52604 8.8303 0.710994 8.84796C0.320814 8.85678 0 8.89209 0 8.91857C0 9.00685 1.05782 9.50116 1.67344 9.69536C3.52029 10.2691 5.71397 10.022 7.36139 9.04215C8.53193 8.34481 9.70247 6.95896 10.2487 5.61724C10.5435 4.90224 10.8383 3.59583 10.8383 2.96911C10.8383 2.56306 10.8643 2.5101 11.3499 2.0246C11.636 1.74214 11.9048 1.43319 11.9568 1.34492C12.0435 1.1772 12.0349 1.1772 11.5927 1.32726C10.8557 1.59208 10.7516 1.55677 11.1158 1.15955C11.3846 0.877081 11.7054 0.365109 11.7054 0.215048C11.7054 0.188567 11.5753 0.232702 11.4279 0.312146C11.2719 0.400417 10.925 0.532824 10.6649 0.612268L10.1967 0.762329L9.77184 0.471034C9.53773 0.312146 9.20824 0.135604 9.03483 0.0826416C8.59263 -0.0409379 7.91631 -0.0232837 7.51746 0.11795C6.43363 0.51517 5.74865 1.53911 5.82668 2.66016Z"/>
+	</g>
+</svg>
+          <span>Twitter</span>
+        </a>
+      </div>
+  
+      <div class="subheader-account-ref-wrapper">
+        <a href="#login" class="subheader-account-ref">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" class="subheader-account-ref__icon">
+	<g>
+		<path d="M7.88643 5.61321H3.19048C2.8486 5.61321 2.57143 5.33866 2.57143 5C2.57143 4.66135 2.8486 4.38679 3.19048 4.38679H7.88643L7.08604 3.59399C6.84428 3.35455 6.84428 2.96627 7.08604 2.72679C7.32771 2.48731 7.7197 2.48731 7.9615 2.72679L9.81854 4.5663C9.8329 4.58048 9.84643 4.59532 9.85931 4.61086C9.86245 4.61466 9.86513 4.61875 9.86818 4.62263C9.87763 4.63453 9.88692 4.64646 9.89542 4.65906C9.8979 4.66273 9.89992 4.66662 9.90235 4.67034C9.91086 4.6835 9.91919 4.69679 9.9267 4.71065C9.92815 4.71339 9.92935 4.71629 9.93079 4.71903C9.93859 4.73403 9.9461 4.74924 9.95266 4.76494C9.95349 4.76686 9.95407 4.7689 9.95485 4.77086C9.96158 4.78738 9.96781 4.8041 9.97309 4.82131C9.97379 4.82348 9.97416 4.82573 9.97478 4.82793C9.97978 4.84482 9.98436 4.86186 9.98787 4.87932C9.9889 4.88451 9.98935 4.88987 9.9903 4.8951C9.99286 4.90957 9.99542 4.92404 9.99686 4.9388C9.99897 4.95904 10 4.97948 10 5C10 5.02052 9.99897 5.04096 9.99686 5.06124C9.99542 5.0762 9.99278 5.0908 9.99026 5.10539C9.98935 5.11046 9.9889 5.11565 9.98787 5.12068C9.98432 5.1383 9.97978 5.15551 9.97474 5.17256C9.97412 5.17456 9.97375 5.17669 9.97313 5.17869C9.96781 5.19598 9.96158 5.21287 9.95477 5.22955C9.95403 5.23134 9.95349 5.23327 9.9527 5.23506C9.9461 5.25089 9.93855 5.26617 9.93067 5.28126C9.9293 5.28392 9.92815 5.2867 9.92675 5.28935C9.91915 5.30329 9.91077 5.3167 9.90215 5.32999C9.89984 5.33359 9.89786 5.33739 9.89546 5.3409C9.88692 5.35354 9.87755 5.36556 9.86814 5.37749C9.86513 5.38134 9.86245 5.38538 9.85935 5.38914C9.84643 5.40464 9.8329 5.41952 9.81858 5.4337L7.96154 7.27321C7.84066 7.39299 7.68223 7.45284 7.52379 7.45284C7.36535 7.45284 7.20692 7.39299 7.08608 7.27321C6.84432 7.03373 6.84432 6.64549 7.08608 6.40601L7.88643 5.61321Z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.707547C0 0.31678 0.319797 0 0.714286 0H5.04762C5.44211 0 5.7619 0.31678 5.7619 0.707547C5.7619 1.09831 5.44211 1.41509 5.04762 1.41509H1.42857V8.58491H5.04762C5.44211 8.58491 5.7619 8.90169 5.7619 9.29245C5.7619 9.68322 5.44211 10 5.04762 10H0.714286C0.319797 10 0 9.68322 0 9.29245V0.707547Z"/>
+	</g>
+</svg>
+          <span>Вход</span>
+        </a>
+        <a href="#register" class="subheader-account-ref">
+          <svg width="11" height="12" viewBox="0 0 11 12" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" class="subheader-account-ref__icon">
+	<g>
+		<path d="M8.25 8H8.8C9.10376 8 9.35 8.25584 9.35 8.57143C9.35 8.88702 9.10376 9.14286 8.8 9.14286H8.25V9.71429C8.25 10.0299 8.00376 10.2857 7.7 10.2857C7.39624 10.2857 7.15 10.0299 7.15 9.71429V9.14286H6.6C6.29624 9.14286 6.05 8.88702 6.05 8.57143C6.05 8.25584 6.29624 8 6.6 8H7.15V7.42857C7.15 7.11298 7.39624 6.85714 7.7 6.85714C8.00376 6.85714 8.25 7.11298 8.25 7.42857V8ZM4.32371 5.63986C3.10668 5.34536 2.2 4.21126 2.2 2.85714C2.2 1.27919 3.43122 0 4.95 0C6.46878 0 7.7 1.27919 7.7 2.85714C7.7 3.2659 7.61738 3.6546 7.46855 4.00622C6.20623 4.07418 5.08464 4.6949 4.32371 5.63986ZM4.26505 11.4286H0.55C0.246243 11.4286 0 11.1727 0 10.8571V8.57143C0 7.30906 0.984973 6.28571 2.2 6.28571H3.3C3.44587 6.28571 3.58576 6.34592 3.68891 6.45308L3.76232 6.52936C3.58084 6.90636 3.44805 7.31307 3.37249 7.74058L3.07218 7.42857H2.2C1.59249 7.42857 1.1 7.94025 1.1 8.57143V10.2857H3.61983C3.78139 10.7004 3.99981 11.0848 4.26505 11.4286ZM4.95 4.57143C5.86127 4.57143 6.6 3.80392 6.6 2.85714C6.6 1.91037 5.86127 1.14286 4.95 1.14286C4.03873 1.14286 3.3 1.91037 3.3 2.85714C3.3 3.80392 4.03873 4.57143 4.95 4.57143ZM7.7 12C5.87746 12 4.4 10.465 4.4 8.57143C4.4 6.67788 5.87746 5.14286 7.7 5.14286C9.52254 5.14286 11 6.67788 11 8.57143C11 10.465 9.52254 12 7.7 12ZM7.7 10.8571C8.91503 10.8571 9.9 9.83379 9.9 8.57143C9.9 7.30906 8.91503 6.28571 7.7 6.28571C6.48497 6.28571 5.5 7.30906 5.5 8.57143C5.5 9.83379 6.48497 10.8571 7.7 10.8571Z"/>
+	</g>
+</svg>
+          <span>Регистрация</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <header class="header">
+    <div class="container">
+      <div class="header__nav-menu-button">
+        <span></span>
+      </div>
+  
+      <div class="header__logo">
+        <img src="images/logo.png" alt="">
+      </div>
+  
+      <nav class="header__nav">
+        <a href="#" class="header__nav-link">Автомобили</a>
+        <a href="#" class="header__nav-link">Новости</a>
+        <a href="#" class="header__nav-link">Обзоры</a>
+        <a href="#" class="header__nav-link">Двигатели</a>
+        <a href="#" class="header__nav-link">Фото</a>
+        <a href="#" class="header__nav-link">Обсуждения</a>
+      </nav>
+  
+      <div class="header__account-button"></div>
+  
+      <label class="header-search">
+        <input type="text" class="header-search__input" placeholder="Поиск по публикациям">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="#9FAAB8" xmlns="http://www.w3.org/2000/svg" class="header-search__icon">
+	<path fill-rule="evenodd" clip-rule="evenodd" d="M10.7727 6C10.7727 8.77955 8.56702 11 5.88633 11C3.20563 11 1 8.77955 1 6C1 3.22046 3.20563 1 5.88633 1C8.56702 1 10.7727 3.22046 10.7727 6ZM9.94591 10.3448C8.88977 11.3704 7.46018 12 5.88633 12C2.6354 12 0 9.31372 0 6C0 2.68629 2.6354 0 5.88633 0C9.13725 0 11.7727 2.68629 11.7727 6C11.7727 7.345 11.3385 8.58663 10.6052 9.58722L10.6678 9.52345L15 13.9393L14.2362 14.7179L9.94591 10.3448Z"/>
+</svg>
+      </label>
+    </div>
+  </header>
+
+  <section class="engines">
+    <div class="container">
+      <div class="section-title page-title">Двигатели Ford</div>
+      <div class="breadcrumbs">
+        <a href="/" class="breadcrumbs-item">Главная</a>
+        <div class="breadcrumbs-item">Двигатели</div>
+      </div>
+
+      <div class="engines__text">
+        <p>
+        Ford Motor Company — американский автопроизводитель, одна из самых крупных компаний в США, а также один из мировых лидеров
+        по количеству произведенных и по объему проданных автомобилей. Помимо основного производителя Ford, компания владеет американской
+        маркой Lincoln, производителем люксовых автомобилей. В прошлом Форду принадлежали такие компании, как Mazda, Volvo, Jaguar
+        и Aston Martin. Соответственно, некоторые модели могут использовать общие платформы, быть унифицированы в той или иной степени
+        и использовать общие запчасти. Это же касается и двигателей Форд, которые могут встречаться и на других автомобилях родственных
+        марок.
+        </p>
+      </div>
+
+      <div class="engines-car">
+        <div class="engines-car__title">Fiesta</div>
+        <a href="#car" class="engines-car__ref">К автомобилю</a>
+        <div class="engines-car__text">
+        <p>
+        Ford Fiesta — компактный городской автомобильчик класса B, в котором конкурирует с популярными Kia Rio, Hyundai Solaris,
+        Toyota Yaris, Volkswagen Polo, Skoda Fabia и др. Был построенный на глобальной фордовской платформе B3, на которой созданы
+        Mazda 2, Ford Fusion и другие небольшие авто. Автомобиль комплектовался и комплектуется целым рядом двигателей, как бензиновыми
+        так и дизелями, начиная с 3 цилиндрового экобуст c объемом двигателя 1.0 л.
+        </p>
+        </div>
+
+        <div class="engines-car__generation-wrapper">
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">III generation</div>
+
+            <div class="engines-car__generation-model">Ford Fiesta — 1.3 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta — 1.4 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta — 1.4 л. TDCi</div>
+          </div>
+
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">II generation</div>
+          
+            <div class="engines-car__generation-model">Ford  Fiesta (80 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (100 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (125 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (140 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (60 л.с.) — 1.2 л.</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (80 л.с.) — 1.2 л.</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (96 л.с.) — 1.4 л.</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (112 л.с.) — 1.5 л.</div>
+          </div>
+
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">I generation</div>
+          
+            <div class="engines-car__generation-model">Ford  Fiesta (125 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (140 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (70 л.с.) — 1.1 л.</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (85 л.с.) — 1.1 л.</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (200 л.с.) — 1.5 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (85 л.с.) — 1.5 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford  Fiesta (120 л.с.) — 1.5 л. TDCi</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="engines-car">
+        <div class="engines-car__title">Focus</div>
+        <a href="#car" class="engines-car__ref">К автомобилю</a>
+        <div class="engines-car__text">
+          <p>
+          Ford Fiesta — компактный городской автомобильчик класса B, в котором конкурирует с популярными Kia Rio, Hyundai Solaris,
+          Toyota Yaris, Volkswagen Polo, Skoda Fabia и др. Был построенный на глобальной фордовской платформе B3, на которой созданы
+          Mazda 2, Ford Fusion и другие небольшие авто. Автомобиль комплектовался и комплектуется целым рядом двигателей, как бензиновыми
+          так и дизелями, начиная с 3 цилиндрового экобуст c объемом двигателя 1.0 л.
+          </p>
+        </div>
+      
+        <div class="engines-car__generation-wrapper">
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">II generation</div>
+      
+            <div class="engines-car__generation-model">Ford Focus 2 (85 л.с.) — 1.4 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (100 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (85 л.с.) — 1.4 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (100 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (115 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (125 л.с.) — 1.8 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (145 л.с.) — 2.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 ST (225 л.с.) — 2.5 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 RS (305 л.с.) — 2.5 л.</div>
+            <div class="engines-car__generation-model">Ford Focus RS500 (350 л.с.) — 2.5 л.</div>
+            <div class="engines-car__generation-model">Ford Focus (90 л.с.) — 1.6 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (100 л.с.) — 1.6 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (109 л.с.) — 1.6 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (115 л.с.) — 1.8 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (110 л.с.) — 2.0 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (136 л.с.) — 2.0 л. TDCi</div>
+          </div>
+      
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">III generation</div>
+      
+            <div class="engines-car__generation-model">Ford Focus 3 (100 л.с.) — 1.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (125 л.с.) — 1.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (85 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (105 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (125 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (150 л.с.) — 1.5 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (150 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (182 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (150 л.с.) — 2.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus ST (250 л.с.) — 2.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus RS (350 л.с.) — 2.3 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (95 л.с.) — 1.6 л. Duratorq</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (115 л.с.) — 1.6 л. Duratorq</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (115 л.с.) — 2.0 л. Duratorq</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (140 л.с.) — 2.0 л. Duratorq</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (163 л.с.) — 2.0 л. Duratorq</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="engines-car">
+        <div class="engines-car__title">Mondeo</div>
+        <a href="#car" class="engines-car__ref">К автомобилю</a>
+        <div class="engines-car__text">
+          <p>
+          Ford Fiesta — компактный городской автомобильчик класса B, в котором конкурирует с популярными Kia Rio, Hyundai Solaris,
+          Toyota Yaris, Volkswagen Polo, Skoda Fabia и др. Был построенный на глобальной фордовской платформе B3, на которой созданы
+          Mazda 2, Ford Fusion и другие небольшие авто. Автомобиль комплектовался и комплектуется целым рядом двигателей, как бензиновыми
+          так и дизелями, начиная с 3 цилиндрового экобуст c объемом двигателя 1.0 л.
+          </p>
+        </div>
+      
+        <div class="engines-car__generation-wrapper">
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">III generation</div>
+      
+            <div class="engines-car__generation-model">Ford Fiesta — 1.3 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta — 1.4 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta — 1.4 л. TDCi</div>
+          </div>
+      
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">II generation</div>
+      
+            <div class="engines-car__generation-model">Ford Fiesta (80 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford Fiesta (100 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford Fiesta (125 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford Fiesta (140 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford Fiesta (60 л.с.) — 1.2 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta (80 л.с.) — 1.2 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta (96 л.с.) — 1.4 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta (112 л.с.) — 1.5 л.</div>
+          </div>
+      
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">I generation</div>
+      
+            <div class="engines-car__generation-model">Ford Fiesta (125 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford Fiesta (140 л.с.) — 1.0 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford Fiesta (70 л.с.) — 1.1 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta (85 л.с.) — 1.1 л.</div>
+            <div class="engines-car__generation-model">Ford Fiesta (200 л.с.) — 1.5 л. EcoBoost</div>
+            <div class="engines-car__generation-model">Ford Fiesta (85 л.с.) — 1.5 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Fiesta (120 л.с.) — 1.5 л. TDCi</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="engines-car">
+        <div class="engines-car__title">Explorer</div>
+        <a href="#car" class="engines-car__ref">К автомобилю</a>
+        <div class="engines-car__text">
+          <p>
+          Ford Fiesta — компактный городской автомобильчик класса B, в котором конкурирует с популярными Kia Rio, Hyundai Solaris,
+          Toyota Yaris, Volkswagen Polo, Skoda Fabia и др. Был построенный на глобальной фордовской платформе B3, на которой созданы
+          Mazda 2, Ford Fusion и другие небольшие авто. Автомобиль комплектовался и комплектуется целым рядом двигателей, как бензиновыми
+          так и дизелями, начиная с 3 цилиндрового экобуст c объемом двигателя 1.0 л.
+          </p>
+        </div>
+      
+        <div class="engines-car__generation-wrapper">
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">II generation</div>
+      
+            <div class="engines-car__generation-model">Ford Focus 2 (85 л.с.) — 1.4 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (100 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (85 л.с.) — 1.4 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (100 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (115 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (125 л.с.) — 1.8 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 (145 л.с.) — 2.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 ST (225 л.с.) — 2.5 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 2 RS (305 л.с.) — 2.5 л.</div>
+            <div class="engines-car__generation-model">Ford Focus RS500 (350 л.с.) — 2.5 л.</div>
+            <div class="engines-car__generation-model">Ford Focus (90 л.с.) — 1.6 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (100 л.с.) — 1.6 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (109 л.с.) — 1.6 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (115 л.с.) — 1.8 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (110 л.с.) — 2.0 л. TDCi</div>
+            <div class="engines-car__generation-model">Ford Focus (136 л.с.) — 2.0 л. TDCi</div>
+          </div>
+      
+          <div class="engines-car__generation">
+            <div class="engines-car__generation-title">III generation</div>
+      
+            <div class="engines-car__generation-model">Ford Focus 3 (100 л.с.) — 1.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (125 л.с.) — 1.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (85 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (105 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (125 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (150 л.с.) — 1.5 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (150 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (182 л.с.) — 1.6 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 (150 л.с.) — 2.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus ST (250 л.с.) — 2.0 л.</div>
+            <div class="engines-car__generation-model">Ford Focus RS (350 л.с.) — 2.3 л.</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (95 л.с.) — 1.6 л. Duratorq</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (115 л.с.) — 1.6 л. Duratorq</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (115 л.с.) — 2.0 л. Duratorq</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (140 л.с.) — 2.0 л. Duratorq</div>
+            <div class="engines-car__generation-model">Ford Focus 3 — (163 л.с.) — 2.0 л. Duratorq</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <img src="images/logo.png" alt="">
+      </div>
+  
+      <div class="footer-nav">
+        <div class="footer-nav-col">
+          <div class="footer-nav__title">Автомобили</div>
+          <a href="#" class="footer-nav__link">Focus</a>
+          <a href="#" class="footer-nav__link">Fiesta</a>
+          <a href="#" class="footer-nav__link">Explorer</a>
+          <a href="#" class="footer-nav__link">Mondeo</a>
+          <a href="#" class="footer-nav__link">C-Max</a>
+        </div>
+  
+        <div class="footer-nav-col">
+          <div class="footer-nav__title">Новости</div>
+          <a href="#" class="footer-nav__link">Выставки</a>
+          <a href="#" class="footer-nav__link">Отзывные кампании</a>
+          <a href="#" class="footer-nav__link">Скандалы</a>
+          <a href="#" class="footer-nav__link">Новинки</a>
+          <a href="#" class="footer-nav__link">Первое впечатление</a>
+        </div>
+  
+        <div class="footer-nav-col">
+          <div class="footer-nav__title">Обзоры</div>
+          <a href="#" class="footer-nav__link">Топ-обзоры</a>
+          <a href="#" class="footer-nav__link">Обзоры на новинки</a>
+        </div>
+  
+        <div class="footer-nav-col">
+          <div class="footer-nav__title">Двигатели</div>
+          <a href="#" class="footer-nav__link">1.6 л. TDCi</a>
+          <a href="#" class="footer-nav__link">1.6 л. Duratorq</a>
+          <a href="#" class="footer-nav__link">1.6 л. EcoBoost</a>
+          <a href="#" class="footer-nav__link">2.0 л. SCTi</a>
+          <a href="#" class="footer-nav__link">2.0 л. TDCi</a>
+        </div>
+  
+        <div class="footer-nav-col">
+          <div class="footer-nav__title">Фото</div>
+          <a href="#" class="footer-nav__link">Focus</a>
+          <a href="#" class="footer-nav__link">Fiesta</a>
+          <a href="#" class="footer-nav__link">Explorer</a>
+          <a href="#" class="footer-nav__link">Mondeo</a>
+          <a href="#" class="footer-nav__link">C-Max</a>
+        </div>
+  
+        <div class="footer-nav-col">
+          <div class="footer-nav__title">Обсуждения</div>
+          <a href="#" class="footer-nav__link">Популярные</a>
+          <a href="#" class="footer-nav__link">Новые</a>
+          <a href="#" class="footer-nav__link">Выбор автомобиля</a>
+          <a href="#" class="footer-nav__link">Обзоры</a>
+        </div>
+      </div>
+  
+      <div class="footer__bottom-info">
+        <div class="footer__copyright">©2018, Ford</div>
+  
+        <div class="footer__ref-wrapper">
+          <a href="#" class="footer__ref">Положение об обработке персональных данных</a>
+          <a href="#" class="footer__ref">Политика конфиденциальности</a>
+        </div>
+  
+        <div class="footer__socials socials">
+          <a href="#facebook" class="socials__link">
+            <svg width="7" height="14" viewBox="0 0 7 14" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M4.65469 14V6.99918H6.72556L7 4.58666H4.65469L4.65821 3.37917C4.65821 2.74995 4.72228 2.41279 5.69072 2.41279H6.98534V0H4.91418C2.42638 0 1.55073 1.17033 1.55073 3.13846V4.58693H0V6.99945H1.55073V14H4.65469Z"/>
+	</g>
+</svg>
+            <span>Facebook</span>
+          </a>
+          <a href="#instagram" class="socials__link">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M5.3435 0.00182999C5.47099 0.00163045 5.60814 0.001692 5.75614 0.00175842L6.00008 0.00182999C7.95426 0.00182999 8.18587 0.00884495 8.95757 0.0439197C9.67118 0.0765545 10.0585 0.195809 10.3165 0.296001C10.658 0.428675 10.9015 0.587274 11.1576 0.843472C11.4137 1.09967 11.5723 1.34367 11.7053 1.68527C11.8054 1.94299 11.9248 2.33034 11.9573 3.04403C11.9924 3.81568 12 4.04748 12 6.00099C12 7.9545 11.9924 8.1863 11.9573 8.95795C11.9247 9.67164 11.8054 10.059 11.7053 10.3167C11.5726 10.6583 11.4137 10.9015 11.1576 11.1576C10.9014 11.4138 10.6582 11.5724 10.3165 11.7051C10.0588 11.8057 9.67118 11.9247 8.95757 11.9573C8.18603 11.9924 7.95426 12 6.00008 12C4.04574 12 3.81413 11.9924 3.04258 11.9573C2.32897 11.9244 1.94168 11.8051 1.68353 11.7049C1.34197 11.5722 1.09801 11.4136 0.841841 11.1574C0.585675 10.9012 0.427096 10.6579 0.294133 10.3161C0.193954 10.0584 0.0745626 9.67103 0.0420844 8.95734C0.00701407 8.18569 0 7.95389 0 5.99916C0 4.04443 0.00701407 3.81385 0.0420844 3.0422C0.0747151 2.32851 0.193954 1.94116 0.294133 1.68313C0.426791 1.34153 0.585675 1.09754 0.841841 0.841337C1.09801 0.585139 1.34197 0.42654 1.68353 0.293561C1.94152 0.192911 2.32897 0.073962 3.04258 0.0411748C3.71776 0.0106749 3.97942 0.00152499 5.3435 0V0.00182999ZM9.90732 1.21732C9.42244 1.21732 9.02904 1.61031 9.02904 2.09541C9.02904 2.58036 9.42244 2.97381 9.90732 2.97381C10.3922 2.97381 10.7856 2.58036 10.7856 2.09541C10.7856 1.61046 10.3922 1.21702 9.90732 1.21702V1.21732ZM2.24154 6.00275C2.24154 3.92683 3.92437 2.24373 6.00001 2.24365C8.07572 2.24365 9.75818 3.92678 9.75818 6.00275C9.75818 8.07872 8.07587 9.76109 6.00016 9.76109C3.92446 9.76109 2.24154 8.07872 2.24154 6.00275Z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M6.00034 3.56267C7.34766 3.56267 8.44002 4.65502 8.44002 6.00265C8.44002 7.35013 7.34766 8.44264 6.00034 8.44264C4.65288 8.44264 3.56067 7.35013 3.56067 6.00265C3.56067 4.65502 4.65288 3.56267 6.00034 3.56267V3.56267Z"/>
+	</g>
+</svg>
+            <span>Instagram</span>
+          </a>
+          <a href="#twitter" class="socials__link">
+            <svg width="12" height="10" viewBox="0 0 12 10" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M5.82668 2.66016L5.8527 3.09268L5.41916 3.03972C3.8411 2.8367 2.46247 2.14818 1.29193 0.991834L0.719665 0.418072L0.572264 0.841773C0.26012 1.78627 0.459545 2.78374 1.10984 3.4546C1.45667 3.82533 1.37864 3.8783 0.78036 3.65762C0.572264 3.587 0.39018 3.53404 0.372838 3.56052C0.312144 3.62231 0.52024 4.42558 0.684982 4.74335C0.910419 5.18471 1.36996 5.61724 1.87286 5.87322L2.29773 6.07625L1.79483 6.08507C1.30927 6.08507 1.29193 6.0939 1.34395 6.27927C1.51737 6.85303 2.20235 7.4621 2.96537 7.72692L3.50295 7.91228L3.03473 8.19475C2.34108 8.6008 1.52604 8.8303 0.710994 8.84796C0.320814 8.85678 0 8.89209 0 8.91857C0 9.00685 1.05782 9.50116 1.67344 9.69536C3.52029 10.2691 5.71397 10.022 7.36139 9.04215C8.53193 8.34481 9.70247 6.95896 10.2487 5.61724C10.5435 4.90224 10.8383 3.59583 10.8383 2.96911C10.8383 2.56306 10.8643 2.5101 11.3499 2.0246C11.636 1.74214 11.9048 1.43319 11.9568 1.34492C12.0435 1.1772 12.0349 1.1772 11.5927 1.32726C10.8557 1.59208 10.7516 1.55677 11.1158 1.15955C11.3846 0.877081 11.7054 0.365109 11.7054 0.215048C11.7054 0.188567 11.5753 0.232702 11.4279 0.312146C11.2719 0.400417 10.925 0.532824 10.6649 0.612268L10.1967 0.762329L9.77184 0.471034C9.53773 0.312146 9.20824 0.135604 9.03483 0.0826416C8.59263 -0.0409379 7.91631 -0.0232837 7.51746 0.11795C6.43363 0.51517 5.74865 1.53911 5.82668 2.66016Z"/>
+	</g>
+</svg>
+            <span>Twitter</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="vendor/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+<script src="scripts/main.js"></script>
+</html>
